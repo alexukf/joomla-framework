@@ -1,0 +1,22 @@
+{
+    "name": "joomla/amazons3",
+    "type": "joomla-package",
+    "description": "Joomla AmazonS3 Package",
+    "keywords": ["joomla", "framework", "amazons3"],
+    "homepage": "https://github.com/alexukf/joomla-framework-amazons3",
+    "license": "GPL-2.0+",
+    "require": {
+        "php": ">=5.3.10",
+        "joomla/date": "dev-master",
+        "joomla/http": "dev-master",
+        "joomla/registry": "dev-master",
+        "joomla/uri": "dev-master"
+    },
+    "target-dir": "Joomla/AmazonS3",
+    "minimum-stability": "dev",
+    "autoload": {
+    	"psr-0": {
+    		"Joomla\\AmazonS3": ""
+    	}
+    }
+}
